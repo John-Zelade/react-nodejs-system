@@ -1,0 +1,191 @@
+.landing-page{
+    background-color: rgb(239, 240, 245);
+    display: flex;
+    flex-direction: column;
+}
+.nav-bar{
+    top:0;
+    position:sticky;
+    background-color:#ffffff98;
+}
+.nav-bar-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+}
+.button-container{
+    display: flex;
+    gap: 1rem;
+}
+.login-btn{
+    border: none;
+    border-radius: 25px;
+    padding: .7rem 1.3rem .7rem 1.3rem;
+    background-color: #F29727;
+    color: #ffff;
+}
+.login-btn:hover{
+    background-color: #c67d23;
+}
+.signup-btn{
+    font-weight: bold;
+    border: none;
+    padding: .7rem 1.3rem .7rem 1.3rem;
+    background:none;
+}
+.signup-btn:hover{
+    border-radius: 25px;
+    background-color: rgb(237, 235, 235);
+    text-decoration: underline;
+}
+.logo-container{
+    border-radius: 12px;
+    padding: 2px;
+    display: flex;
+    background-color: #F29727;
+}
+.main-logo{
+    border-radius: 10px 0px 0px 10px;
+    padding: 2px 10px;
+    background-color: white;
+    font-size: 30px;
+}
+.sub-logo{
+    margin: 2px;
+    color: #fff;
+    display: grid;
+    place-items: center;
+}
+.landing-page-header{
+    margin: 0px 2rem 0px 2rem;
+    height: 100vh;
+    background-image:url("../../src/assets/images/bg-car.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.landing-page-header-content{
+    margin: 2rem 0px 0px 3rem;
+    padding: 1rem;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.063);
+    color: white;
+}
+.book-now-btn-container{
+    margin-left: 3rem;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.book-now-btn-container button{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    padding: .7rem 1.3rem .7rem 1.3rem;
+    background-color: #f29727cf;
+    color: #ffff;
+}
+.book-now-btn-container button:hover{
+    background-color: #f59d31;
+}
+.landing-page-header h4{
+    padding: 1.5rem;
+    font-weight:100;
+    font-size: 18px;
+    line-height: 40px;
+}
+.landing-page-body{
+    display: flex;
+    margin: 4rem 2rem;
+    gap: 2rem;
+}
+.body-text-container{
+    padding-right: 4rem;
+}
+.body-text-container p{
+    line-height: 30px;
+    text-indent: 1rem;
+}
+.car-img-container{
+    display: flex;
+    gap: 1rem;
+    padding-left:4rem;
+}
+.car-img-sub-container{
+   gap: 1rem;
+   display: flex;
+   flex-direction: column;
+}
+.car-img-container .car-img-2, .car-img-3{
+    width: 300px;
+    height:150px;
+}
+.car-img-container .car-img-1{
+    width:275px;
+}
+.car-icon-container{
+    border-radius: 10px;
+    background-color: rgb(193, 149, 79);
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 2rem;
+    padding: 0px 1rem;
+}
+.car-icon-container img{
+    filter: brightness(0) invert(1);  
+    width: 100px;
+    height: 100px;
+}
+.car-icon-container .car-icon-content{
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 10px 20px 10px;
+}
+.next-travel-container{
+    margin: 3rem 2rem;
+    background-image: url('../images/car-img4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.next-travel-container div{
+  margin: 1rem;
+  padding: 1.5rem;
+}
+.next-travel-container div h1{
+   padding: 1rem;
+   margin:1rem 3rem 3rem 3rem;
+   width: 40%;
+  }
+.next-travel-container div button{
+    font-size: 12px;
+    border: none;
+    border-radius: 5px;
+    padding: .7rem 1.5rem .7rem 1.5rem;
+    margin: 0px 0px 5rem 7rem;
+    background-color: #f29727cf;
+    color: #ffff;
+  }
+.next-travel-container div button:hover{
+    background-color: #c67d23;
+  }
+.landing-page-footer-content{
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.landing-page-footer-content .content-column{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.landing-page-footer-content .content-column a{
+   text-decoration: none;
+   color: #000;
+}

@@ -1,0 +1,29 @@
+.signup-modal .signup-button{
+    margin: 1rem;
+    padding: .75rem;
+    border: none;
+    background-color:#F29727 ;
+}
+.signup-modal .signup-button:hover{
+    background-color: #c67d23;
+}
+.signup-modal .signup-modal-show-password:hover{
+    background-color:transparent;
+    color:#F29727;
+}
+.login-modal .login-button{
+    margin: 1rem;
+    padding: .75rem;
+    border: none;
+    background-color:#F29727 ;
+}
+.login-modal .login-button:hover{
+    background-color: #c67d23;
+}
+.login-modal .login-modal-show-password{
+    background-color:transparent;
+}
+.login-modal .login-modal-show-password:hover{
+    background-color:transparent;
+    color:#F29727;
+}
